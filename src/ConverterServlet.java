@@ -17,6 +17,8 @@ public class ConverterServlet extends HttpServlet {
 
         PrintWriter printWriter = response.getWriter();
         printWriter.println("<html>");
+        printWriter.println("<h1> "+"Convert current "+"</h1>");
+
         printWriter.println("<h1> Rate: "+rate+"</h1>");
         printWriter.println("<h1> USD :"+usd+"</h1>");
         printWriter.println("<h1> VND: "+vnd+"</h1>");
